@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+.fav-poke{
+    background-color: rgb(241, 105, 105);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   animation-name: example;
+   animation-duration:5s;
+   animation-delay: 6s;
+   animation-iteration-count: infinite;
+}
+
+.fav-poke h2{
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 28px;
+}
+
+@keyframes example {
+    from {background-color: red;background-color: rgb(0, 247, 255);}
+    to {background-color: yellow;background-color: rgb(241, 105, 105);}
+  }

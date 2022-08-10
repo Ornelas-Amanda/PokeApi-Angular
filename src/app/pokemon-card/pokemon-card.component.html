@@ -1,0 +1,11 @@
+<section [id]="pokeID()" class="pokemon-card card">
+    <article>
+    <img [src]="pegarImagemPokemon()" class="card-img-top" [alt]="imageName"/><br/>
+    </article>
+    <div class="card-body"> 
+    <h4 class="card-title">{{pokemon}}</h4><br/>
+    <a href="#pokemon" class="btn btn-primary" (click)="favoritarPokemon(pokeID(),imageName)">Favoritar</a>    
+</div>
+</section>
+
+  
